@@ -13,10 +13,7 @@ import javax.imageio.ImageIO;
 
 public class Menu {
 	private static Scanner s =  new Scanner(System.in);
-	//public static EnumSet<Kernel> kernelSet = EnumSet.allOf(Kernel.class);
-//	static String[] SELECTION = {"IDENTITY", "EDGE_DETECTION_1", "EDGE_DETECTION_2", 
-//            "LAPLACIAN", "SHARPEN", "VERTICAL_LINES","HORIZONTAL_LINES",
-//            "DIAGONAL_45_LINES", "BOX_BLUR","SOBEL_HORIZONTAL", "SOBEL_VERTICAL"};
+
 	BufferedImage inputimage = null;
 	double[][] theChoice2 = null;
 	
@@ -85,20 +82,7 @@ public class Menu {
 				    break;
 				
 			}
-//			if (choice == 1) {
-//				
-//			} else if (choice == 2) {
-//
-//			} else if (choice == 3) {
-//			}
-//
-//			else if (choice == 4) {
-//				System.out.println("[INFO] Shutting down...please wait...");
-//				keepRunning = false;
-//			} else {
-//				System.out.println("[ERROR] Invalid input.");
-//			}
-//		}
+
 		}
 	}
 
@@ -147,31 +131,4 @@ public static void printdblarray(double[][] arr) {
 	}
 	
 }
-/*
- * IMPORTANT! Read the following points and delete them when you're finished.
- * --------------------------------------------------------------------------
- * (a) Keep the menu alive inside a loop. When (4) is selected, set the loop
- * control variable to false. (b) Use a java.util.Scanner class to read in the
- * user input and a new switch statement to process the choice. You can read
- * about the new switch statement at
- * https://docs.oracle.com/en/java/javase/13/language/switch-expressions.html.
- * (c) Perhaps consider placing the arrays in the class Kernel.java into some
- * type of enum, as the array values are constant. (e) Try not to cram all the
- * functionality into this one class! Each class should have one responsibility
- * only.
- */
-
-// System.out.print(ConsoleColour.BLACK_BOLD_BRIGHT);
-
-// You can access the kernel filters like this:
-/*
- * double[][] kernel = Kernels.SOBEL_HORIZONTAL;
- * 
- * //You can refer to them directly like this: for (int row = 0; row <
- * Kernels.SOBEL_HORIZONTAL.length; row++){ for (int col = 0; col <
- * Kernels.SOBEL_HORIZONTAL[row].length; col++){
- * System.out.println(Kernels.SOBEL_HORIZONTAL[row][col]); } }
- * 
- * System.out.println(ConsoleColour.RESET); } }
- */
 
