@@ -41,6 +41,6 @@ public class FileSearcher {
 				return f.getAbsolutePath();
 			}//End IF 		
 		}//End For
-		return null;	//This will never return null due to the validation in previous method
-	}// End findFile
-}// End FileSearcher
+		return null;	
+	}
+}
