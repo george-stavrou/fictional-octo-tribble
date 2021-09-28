@@ -1,14 +1,5 @@
-
-
-
-
-
-
-
 package ie.gmit.dip;
 
-	
-	
 	public enum Kernel {
 		
 		
