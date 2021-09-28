@@ -9,25 +9,7 @@ import javax.imageio.ImageIO;
 
 public class ImageConvolution {
 	
-	
-	// method reads in image
-//	public static void writeImage(BufferedImage input) throws IOException {
-//		double[][] testKernel = new double[][] { {1,1,1},
-//			{1,-7,1},
-//			{1,1,1} };
-//
-//		BufferedImage outputImage = convolution(input, testKernel);
-//		// ImageIO.write(outputImage,"PNG", new File("output"+".png"));
-//
-//		try {
-//			ImageIO.write(outputImage, "PNG", new File("output.png"));
-//		} catch (IOException e) {
-//			System.out.println(ConsoleColour.RED);
-//			System.out.println("Error Writing the File");
-//			System.out.println(ConsoleColour.RESET);
-//		}
-//
-//	}
+
 
 	public static BufferedImage convolution(BufferedImage input, double[][] kernel) throws IOException {
 		BufferedImage output = new BufferedImage(input.getWidth(), input.getHeight(), input.getType());
